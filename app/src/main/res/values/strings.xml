@@ -10,4 +10,5 @@
     <string name="verify_internet_connection">Verifique su conexión a internet.</string>
     <string name="welcome">Para disfrutar de las lista de música, debe iniciar sesión previamete.</string>
     <string name="login_button">LOGIN</string>
+    <string name="verify_auth_connection">No tiene acceso a Spotify.</string>
 </resources>

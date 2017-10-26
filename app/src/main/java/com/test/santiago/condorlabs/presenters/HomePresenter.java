@@ -1,16 +1,10 @@
 package com.test.santiago.condorlabs.presenters;
 
-import android.app.Activity;
-
-import com.spotify.sdk.android.authentication.AuthenticationClient;
-import com.spotify.sdk.android.authentication.AuthenticationRequest;
-import com.spotify.sdk.android.authentication.AuthenticationResponse;
 import com.test.santiago.condorlabs.model.Album;
 import com.test.santiago.condorlabs.services.SpotifyService;
 import com.test.santiago.condorlabs.services.dto.ArtistResponse;
 import com.test.santiago.condorlabs.services.interfaces.ISuscriptor;
-import com.test.santiago.condorlabs.util.Constants;
-import com.test.santiago.condorlabs.util.ErrrorUtils;
+import com.test.santiago.condorlabs.util.ErrorUtils;
 import com.test.santiago.condorlabs.view.interfaces.IHomeView;
 
 import java.io.IOException;
@@ -37,7 +31,7 @@ public class HomePresenter extends Presenter  implements ISuscriptor{
 
     @Override
     public void onError(Throwable e) throws IOException {
-        view.showMessage(ErrrorUtils.getErrorMessage(view.getContext(), e));
+        view.showMessage(ErrorUtils.getErrorMessage(view.getContext(), e));
     }
 
     @Override
