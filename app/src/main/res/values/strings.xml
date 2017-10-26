@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CondorLabs</string>
+    <string name="com_spotify_sdk_redirect_scheme">http://</string>
+    <string name="com_spotify_sdk_redirect_host">condorlabs.com/callback/</string>
+    <string name="title_buscar">Buscar</string>
+    <string name="select_app_open">Seleccione una aplicación</string>
+    <string name="non_seaarch_artist">¡Busca tu artista favorito y disfuta de sus canciones!</string>
+    <string name="no_result_search">No se encontraron resultados asociados.</string>
+    <string name="error_search">Ocurrió un error en la búsqueda.</string>
+    <string name="verify_internet_connection">Verifique su conexión a internet.</string>
+    <string name="welcome">Para disfrutar de las lista de música, debe iniciar sesión previamete.</string>
+    <string name="login_button">LOGIN</string>
+</resources>
